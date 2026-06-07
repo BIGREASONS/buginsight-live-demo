@@ -1,4 +1,4 @@
-import pickle
+import json
 
 def load_user_data(data):
-    return pickle.loads(data)
+    return json.loads(data)
